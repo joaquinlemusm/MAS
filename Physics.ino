@@ -10,15 +10,6 @@ void setup() {
   startMillis = millis();
 }
 
-void ledAction () {
-  int ldrStatus = analogRead(ldrPin);
-  if (ldrStatus <= 300) {
-    digitalWrite(ledPin, HIGH);
-  } else {
-    digitalWrite(ledPin, LOW);
-  } 
-}
-
 void loop() {
   int ldrStatus = analogRead(ldrPin);
   if (ldrStatus <= 300) {
