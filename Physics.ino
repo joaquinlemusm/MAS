@@ -24,20 +24,3 @@ void loop() {
     currentMillis = millis();
   } 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
